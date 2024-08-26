@@ -20,7 +20,7 @@ Container will return any error along with ```exist code = 0|1```. If  exit code
 - Communicate with the LLM with the context, origin_question and error from PyCapsule
 - The loop will break only if the updated code from LLM compiles with <b>exit code 0</b>  
   
-[Py-capsule](https://github.com/Adnan525/python_sandbox/blob/master/pycapsule.png)
+![Py-capsule](https://github.com/Adnan525/python_sandbox/blob/master/pycapsule.png)
 
 
 # Important
