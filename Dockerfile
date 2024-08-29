@@ -23,9 +23,6 @@ else\n\
     echo "Nothing to execute, shutting down."\n\
 fi' > /usr/src/app/start.sh
 
-# add execute permission
-RUN chmod +x /usr/src/app/start.sh
-
 # run the shell script
-CMD ["chmod +x /usr/src/app/start.sh"]
+# CMD ["chmod +x /usr/src/app/start.sh"]
 ENTRYPOINT ["/usr/src/app/start.sh"]
